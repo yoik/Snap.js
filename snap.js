@@ -173,7 +173,7 @@
                                 if(matrix.length===16){
                                     index+=ieOffset;
                                 }
-                                return parseInt(matrix[index], 10);
+                                return Math.round(matrix[index]);
                             }
                             return 0;
                         }
